@@ -1,0 +1,6 @@
+python-telegram-bot
+pytz
+python-dotenv
+apscheduler
+asyncio
+AsyncIOScheduler
