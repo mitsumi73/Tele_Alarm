@@ -26,12 +26,7 @@ def scheduler_job():
     if 23 > now.hour >= 6:
         send_message(CHAT_ID)
     scheduler.enter(1800, 1, scheduler_job)
-
-
 while True:
     scheduler.enter(0, 1, scheduler_job)
-    try:
-        scheduler.run()
-    except KeyboardInterrupt:
-        print("Program interrupted by user.")
-        # Include any cleanup or resource release code here
+    scheduler.run()
+
