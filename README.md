@@ -6,7 +6,7 @@
  
 </div>
  
- ## How to Install
+ ## How to Install 📦
 
 ### Step 1: Install Python
 
