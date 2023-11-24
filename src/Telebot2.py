@@ -1,6 +1,7 @@
 import sched
 import time
 from datetime import datetime
+from sched import scheduler
 import pytz
 from dotenv import load_dotenv
 import telebot
@@ -9,9 +10,8 @@ import os
 load_dotenv()
 TOKEN = os.getenv('TELEGRAM_API_KEY')
 CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
-
 bot = telebot.TeleBot(TOKEN)
-scheduler = sched.scheduler(time.time, time.sleep)
+scheduler: scheduler = sched.scheduler(time.time, time.sleep)
 
 
 def send_message(chat_id):
@@ -29,4 +29,3 @@ def scheduler_job():
 while True:
     scheduler.enter(0, 1, scheduler_job)
     scheduler.run()
-
