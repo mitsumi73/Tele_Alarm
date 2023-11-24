@@ -3,4 +3,4 @@ pytz
 python-dotenv
 apscheduler
 asyncio
-AsyncIOScheduler
+APScheduler

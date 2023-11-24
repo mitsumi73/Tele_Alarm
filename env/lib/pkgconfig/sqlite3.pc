@@ -1,6 +1,6 @@
 # Package Information for pkg-config
 
-prefix=/Users/home/Library/CloudStorage/OneDrive-kyonggi.ac.kr/Project/2023_2__opensw_2021110509/Tele_Alarm/env
+prefix=/Users/home/Library/CloudStorage/OneDrive-kyonggi.ac.kr/Project/Tele_Alarm/env
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

@@ -1,8 +1,8 @@
 # tcl pkg-config source file
 
-prefix=/Users/home/Library/CloudStorage/OneDrive-kyonggi.ac.kr/Project/2023_2__opensw_2021110509/Tele_Alarm/env
-exec_prefix=/Users/home/Library/CloudStorage/OneDrive-kyonggi.ac.kr/Project/2023_2__opensw_2021110509/Tele_Alarm/env
-libdir=/Users/home/Library/CloudStorage/OneDrive-kyonggi.ac.kr/Project/2023_2__opensw_2021110509/Tele_Alarm/env/lib
+prefix=/Users/home/Library/CloudStorage/OneDrive-kyonggi.ac.kr/Project/Tele_Alarm/env
+exec_prefix=/Users/home/Library/CloudStorage/OneDrive-kyonggi.ac.kr/Project/Tele_Alarm/env
+libdir=/Users/home/Library/CloudStorage/OneDrive-kyonggi.ac.kr/Project/Tele_Alarm/env/lib
 includedir=${prefix}/include
 libfile=libtcl8.6.dylib
 
