@@ -51,7 +51,8 @@ While True:
     scheduler.run()
 
 ```
-## View in My Channel: [Tele_Alarm_channel](https://t.me/Tele_K20232) 
+## View in My Channel: [Tele_Alarm_channel](https://t.me/Tele_K20232) <span><img src="https://img.shields.io/badge/telegram-26A5E4?logo=telegram&logoColor=F7DF1E"/></span>
+&nbsp;
 ## Execution Results
 <a href="#" target="_blank">
   <img src="image/Run .png" width="1200"/>
