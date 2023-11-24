@@ -46,9 +46,9 @@ def scheduler_job():
     if 23 > now.hour >= 6:
         send_message(CHAT_ID)
     scheduler.enter(1800, 1, scheduler_job)
-
-scheduler.enter(0, 1, scheduler_job)
-scheduler.run()
+While True:
+    scheduler.enter(0, 1, scheduler_job)
+    scheduler.run()
 
 ```
 ## View in My Channel: [Tele_Alarm_channel](https://t.me/Tele_K20232) 
