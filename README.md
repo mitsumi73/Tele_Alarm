@@ -51,8 +51,8 @@ scheduler.enter(0, 1, scheduler_job)
 scheduler.run()
 
 ```
-## View in My Channel: 
+## View in My Channel: [Tele_Alarm_channel](https://t.me/Tele_K20232) 
 ## Execution Results
 <a href="#" target="_blank">
-  <img src="image/Run code.png" width="1200"/>
+  <img src="image/Run .png" width="1200"/>
 
