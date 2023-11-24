@@ -58,7 +58,4 @@ While True:
     scheduler.run()
 
 ```
-## Execution Results
-<a href="#" target="_blank">
-  <img src="image/....png" width="1200"/>
 
