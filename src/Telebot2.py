@@ -2,7 +2,6 @@ import sched
 import time
 from datetime import datetime
 import pytz
-import scheduler
 from dotenv import load_dotenv
 import telebot
 import os
@@ -26,6 +25,8 @@ def scheduler_job():
     if 23 > now.hour >= 6:
         send_message(CHAT_ID)
     scheduler.enter(1800, 1, scheduler_job)
+
+
 while True:
     scheduler.enter(0, 1, scheduler_job)
     scheduler.run()
